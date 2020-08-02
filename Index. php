@@ -1,0 +1,10 @@
+<?php
+$name='Halimat Amimu'
+$email='aminuoluwatosin2000@gmail.com'
+$HackbioUsername='@Halimat'
+$language='php'
+echo "my name is $name"
+echo "my email is $email"
+echo "my username is $HackbioUsername"
+echo "i wrote my code in $language"
+?>
