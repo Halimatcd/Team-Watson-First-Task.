@@ -27,7 +27,9 @@ do
     elif [ "$ext" = "js" ] ; then
         node "./$foldername/$filename" >> info.csv
         # continue
-    
+    elif [ "$ext" = "R" ] ; then
+        R "./$foldername/$filename" >> info.csv
+        # continue
     else
         # echo "File $ext type unknown"
         continue
